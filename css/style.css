@@ -44,18 +44,30 @@ a {
     justify-content: center;
 }
 
-input {
-    background-image: url(https://cdn2.hubspot.net/hubfs/4004166/bioticresearch_website_assets/images/search_icon.png);
-    background-size: 20px;
-    background-repeat: no-repeat;
-    background-position: left center;
-    border-radius: 25px;
+.search {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.rect{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    border: 1px solid;
+    border-radius: 30px;
     width: 30%;
 }
+
+input{
+    border: 0;
+}
+
 button {
     font-size: 24px;
     border-color: currentColor;
 }
+
 footer {
     background-color: lightgrey;
 }
